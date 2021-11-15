@@ -1,7 +1,4 @@
 //
-//  RemoteFeedLoader.swift
-//  EssentialFeed
-//
 //  Created by Daniel Tischenko on 15.11.2021.
 //
 

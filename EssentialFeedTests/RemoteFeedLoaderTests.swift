@@ -1,7 +1,4 @@
 //
-//  RemoteFeedLoaderTests.swift
-//  EssentialFeedTests
-//
 //  Created by Daniel Tischenko on 15.11.2021.
 //
 

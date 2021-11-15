@@ -1,7 +1,4 @@
 //
-//  FeedLoader.swift
-//  EssentialFeed
-//
 //  Created by Daniel Tischenko on 08.11.2021.
 //
 
