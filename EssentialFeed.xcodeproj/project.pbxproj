@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1523F127472C3700609A0E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1523F027472C3700609A0E /* HTTPClient.swift */; };
 		DB167E872742A9B700B92CF1 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB167E862742A9B700B92CF1 /* RemoteFeedLoaderTests.swift */; };
 		DB167E8A2742EC3E00B92CF1 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB167E892742EC3E00B92CF1 /* RemoteFeedLoader.swift */; };
 		DB23C11D27398A5100EDA29E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB23C11227398A5100EDA29E /* EssentialFeed.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1523F027472C3700609A0E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		DB167E862742A9B700B92CF1 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		DB167E892742EC3E00B92CF1 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		DB23C11227398A5100EDA29E /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DB167E892742EC3E00B92CF1 /* RemoteFeedLoader.swift */,
+				DB1523F027472C3700609A0E /* HTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -83,9 +86,9 @@
 		DB23C11427398A5100EDA29E /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				DB167E882742EC2000B92CF1 /* FeedAPI */,
 				DB23C11527398A5100EDA29E /* EssentialFeed.h */,
 				DB23C1322739907F00EDA29E /* FeedFeature */,
+				DB167E882742EC2000B92CF1 /* FeedAPI */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				DB23C13127398FBA00EDA29E /* FeedLoader.swift in Sources */,
 				DB167E8A2742EC3E00B92CF1 /* RemoteFeedLoader.swift in Sources */,
+				DB1523F127472C3700609A0E /* HTTPClient.swift in Sources */,
 				DB23C12F27398F9200EDA29E /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
