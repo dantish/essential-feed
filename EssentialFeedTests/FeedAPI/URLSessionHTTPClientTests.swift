@@ -1,7 +1,4 @@
 //
-//  URLSessionHTTPClientTests.swift
-//  EssentialFeedTests
-//
 //  Created by Daniel Tischenko on 20.11.2021.
 //
 
