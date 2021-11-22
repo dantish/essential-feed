@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB02784B274C552C00B37EF8 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02784A274C552C00B37EF8 /* URLSessionHTTPClient.swift */; };
 		DB1523F127472C3700609A0E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1523F027472C3700609A0E /* HTTPClient.swift */; };
 		DB1523F327472CAE00609A0E /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1523F227472CAE00609A0E /* FeedItemsMapper.swift */; };
 		DB167E872742A9B700B92CF1 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB167E862742A9B700B92CF1 /* RemoteFeedLoaderTests.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB02784A274C552C00B37EF8 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		DB1523F027472C3700609A0E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		DB1523F227472CAE00609A0E /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		DB167E862742A9B700B92CF1 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				DB167E892742EC3E00B92CF1 /* RemoteFeedLoader.swift */,
 				DB1523F227472CAE00609A0E /* FeedItemsMapper.swift */,
 				DB1523F027472C3700609A0E /* HTTPClient.swift */,
+				DB02784A274C552C00B37EF8 /* URLSessionHTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				DB167E8A2742EC3E00B92CF1 /* RemoteFeedLoader.swift in Sources */,
 				DB1523F127472C3700609A0E /* HTTPClient.swift in Sources */,
 				DB23C12F27398F9200EDA29E /* FeedItem.swift in Sources */,
+				DB02784B274C552C00B37EF8 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
