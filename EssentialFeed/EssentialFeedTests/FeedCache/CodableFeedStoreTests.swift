@@ -169,7 +169,7 @@ class CodableFeedStoreTests: XCTestCase {
             insertionError = receivedInsertionError
             exp.fulfill()
         }
-        wait(for: [exp], timeout: 1.0)
+        wait(for: [exp], timeout: 10.0)
         return insertionError
     }
 
@@ -180,7 +180,7 @@ class CodableFeedStoreTests: XCTestCase {
             deletionError = receivedDeletionError
             exp.fulfill()
         }
-        wait(for: [exp], timeout: 1.0)
+        wait(for: [exp], timeout: 10.0)
         return deletionError
     }
 
