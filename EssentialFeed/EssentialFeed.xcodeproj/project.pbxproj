@@ -22,6 +22,7 @@
 		DB199979277EA196001EF409 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB199978277EA196001EF409 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
 		DB19997C27812281001EF409 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19997B27812281001EF409 /* CoreDataFeedStoreTests.swift */; };
 		DB19997E2781235B001EF409 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19997D2781235B001EF409 /* CoreDataFeedStore.swift */; };
+		DB19998127812534001EF409 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB19997F27812534001EF409 /* FeedStore.xcdatamodeld */; };
 		DB23C11D27398A5100EDA29E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB23C11227398A5100EDA29E /* EssentialFeed.framework */; };
 		DB23C12327398A5100EDA29E /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = DB23C11527398A5100EDA29E /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB23C12F27398F9200EDA29E /* FeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23C12E27398F9200EDA29E /* FeedImage.swift */; };
@@ -75,6 +76,7 @@
 		DB199978277EA196001EF409 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		DB19997B27812281001EF409 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		DB19997D2781235B001EF409 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
+		DB19998027812534001EF409 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
 		DB23C11227398A5100EDA29E /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB23C11527398A5100EDA29E /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		DB23C11C27398A5100EDA29E /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +258,7 @@
 				DBA532DD277B82AD0039CED6 /* FeedCachePolicy.swift */,
 				DBA532E1277DF6570039CED6 /* CodableFeedStore.swift */,
 				DB19997D2781235B001EF409 /* CoreDataFeedStore.swift */,
+				DB19997F27812534001EF409 /* FeedStore.xcdatamodeld */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				DB668F1927693AEB00989F41 /* RemoteFeedItem.swift in Sources */,
 				DBA532DE277B82AD0039CED6 /* FeedCachePolicy.swift in Sources */,
 				DB167E8A2742EC3E00B92CF1 /* RemoteFeedLoader.swift in Sources */,
+				DB19998127812534001EF409 /* FeedStore.xcdatamodeld in Sources */,
 				DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */,
 				DBE2B5F02762BEDD00AACF4F /* FeedStore.swift in Sources */,
 				DBE2B5EE2762BE3C00AACF4F /* LocalFeedLoader.swift in Sources */,
@@ -773,6 +777,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB19997F27812534001EF409 /* FeedStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB19998027812534001EF409 /* FeedStore.xcdatamodel */,
+			);
+			currentVersion = DB19998027812534001EF409 /* FeedStore.xcdatamodel */;
+			path = FeedStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DB23C10927398A5100EDA29E /* Project object */;
 }
