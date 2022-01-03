@@ -1,5 +1,5 @@
 //
-//  CodableFeedStoreTests.swift
+//  CoreDataFeedStoreTests.swift
 //  EssentialFeedTests
 //
 //  Created by Daniel Tischenko on 30.12.2021.
