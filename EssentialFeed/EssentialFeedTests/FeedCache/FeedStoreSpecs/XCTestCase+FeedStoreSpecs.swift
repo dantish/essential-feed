@@ -123,7 +123,7 @@ extension FeedStoreSpecs where Self: XCTestCase {
             insertionError = receivedInsertionError
             exp.fulfill()
         }
-        wait(for: [exp], timeout: 10.0)
+        wait(for: [exp], timeout: 1.0)
         return insertionError
     }
 
@@ -135,7 +135,7 @@ extension FeedStoreSpecs where Self: XCTestCase {
             deletionError = receivedDeletionError
             exp.fulfill()
         }
-        wait(for: [exp], timeout: 10.0)
+        wait(for: [exp], timeout: 1.0)
         return deletionError
     }
 
