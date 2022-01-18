@@ -17,7 +17,7 @@
 		<key>EssentialFeedAPIEndToEndTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>EssentialFeedCacheIntegrationTests.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DB02784F274C5C3A00B37EF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DB23C11127398A5100EDA29E</key>
 		<dict>
 			<key>primary</key>
