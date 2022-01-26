@@ -40,7 +40,6 @@ final class FeedViewControllerTests: XCTestCase {
 
         loader.completeFeedLoading(at: 1)
         XCTAssertFalse(sut.isShowingLoadingIndicator, "Expected no loading indicator once user initiated loading is completed")
-
     }
 
     // MARK: - Helpers
