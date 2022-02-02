@@ -124,6 +124,7 @@ Location</string>
                         <connections>
                             <outlet property="dataSource" destination="aOM-6R-21z" id="8PO-Pc-4xp"/>
                             <outlet property="delegate" destination="aOM-6R-21z" id="RR0-jt-8J1"/>
+                            <outlet property="prefetchDataSource" destination="aOM-6R-21z" id="gbe-rk-Zfl"/>
                         </connections>
                     </tableView>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="WdN-VR-nUU">
