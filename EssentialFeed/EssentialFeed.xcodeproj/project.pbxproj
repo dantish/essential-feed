@@ -52,6 +52,8 @@
 		DB36ABEF27A83AD20057DD83 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36ABEE27A83AD20057DD83 /* UIView+Shimmering.swift */; };
 		DB3BBB0D27AC009900B15E04 /* FeedUIIntegrationTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BBB0C27AC009900B15E04 /* FeedUIIntegrationTests+Localization.swift */; };
 		DB3BBB1727AC2A9800B15E04 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BBB1627AC2A9800B15E04 /* MainQueueDispatchDecorator.swift */; };
+		DB41CE3E282EE28E0064C5C5 /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41CE3D282EE28E0064C5C5 /* LocalFeedImageDataLoader.swift */; };
+		DB41CE40282EE29B0064C5C5 /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41CE3F282EE29B0064C5C5 /* FeedImageDataStore.swift */; };
 		DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */; };
 		DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */; };
 		DB668F1927693AEB00989F41 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668F1827693AEB00989F41 /* RemoteFeedItem.swift */; };
@@ -192,6 +194,8 @@
 		DB3BBB0C27AC009900B15E04 /* FeedUIIntegrationTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+Localization.swift"; sourceTree = "<group>"; };
 		DB3BBB1427AC09D500B15E04 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 		DB3BBB1627AC2A9800B15E04 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
+		DB41CE3D282EE28E0064C5C5 /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
+		DB41CE3F282EE29B0064C5C5 /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		DB668F1827693AEB00989F41 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
@@ -593,6 +597,8 @@
 				DBE2B5EF2762BEDD00AACF4F /* FeedStore.swift */,
 				DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */,
 				DBA532DD277B82AD0039CED6 /* FeedCachePolicy.swift */,
+				DB41CE3D282EE28E0064C5C5 /* LocalFeedImageDataLoader.swift */,
+				DB41CE3F282EE29B0064C5C5 /* FeedImageDataStore.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -849,6 +855,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB41CE3E282EE28E0064C5C5 /* LocalFeedImageDataLoader.swift in Sources */,
 				DB6CBDE727834C98002857B0 /* CoreDataHelpers.swift in Sources */,
 				DB1523F327472CAE00609A0E /* FeedItemsMapper.swift in Sources */,
 				DB23C13127398FBA00EDA29E /* FeedLoader.swift in Sources */,
@@ -864,6 +871,7 @@
 				DBE2B5EE2762BE3C00AACF4F /* LocalFeedLoader.swift in Sources */,
 				DB1523F127472C3700609A0E /* HTTPClient.swift in Sources */,
 				DB23C12F27398F9200EDA29E /* FeedImage.swift in Sources */,
+				DB41CE40282EE29B0064C5C5 /* FeedImageDataStore.swift in Sources */,
 				DB1125E827B3C4A60018CAB0 /* FeedPresenter.swift in Sources */,
 				DB02784B274C552C00B37EF8 /* URLSessionHTTPClient.swift in Sources */,
 				DB00B5082828187B00E99406 /* HTTPURLResponse+StatusCode.swift in Sources */,
