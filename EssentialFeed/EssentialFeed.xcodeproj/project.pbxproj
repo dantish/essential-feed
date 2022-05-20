@@ -412,9 +412,9 @@
 			isa = PBXGroup;
 			children = (
 				DB23C11527398A5100EDA29E /* EssentialFeed.h */,
-				DBE2B5EC2762BE2600AACF4F /* FeedCache */,
 				DB23C1322739907F00EDA29E /* FeedFeature */,
 				DB167E882742EC2000B92CF1 /* FeedAPI */,
+				DBE2B5EC2762BE2600AACF4F /* FeedCache */,
 				DB1125E627B3C4940018CAB0 /* FeedPresentation */,
 			);
 			path = EssentialFeed;
@@ -424,8 +424,8 @@
 			isa = PBXGroup;
 			children = (
 				DB34E5F4274C02BC000A6954 /* Helpers */,
-				DBE2B5E927621D7700AACF4F /* FeedCache */,
 				DB1523F42747334D00609A0E /* FeedAPI */,
+				DBE2B5E927621D7700AACF4F /* FeedCache */,
 				DB1125DC27B3B84B0018CAB0 /* FeedPresentation */,
 			);
 			path = EssentialFeedTests;
@@ -1361,7 +1361,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1393,7 +1393,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
