@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB9D3AF728382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		DB9D3AF9283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AF8283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift */; };
+		DB9D3AFB28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		DBF286762837C367000E53D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF286752837C367000E53D3 /* AppDelegate.swift */; };
 		DBF286782837C367000E53D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF286772837C367000E53D3 /* SceneDelegate.swift */; };
 		DBF2867D2837C367000E53D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF2867B2837C367000E53D3 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		DB9D3AF8283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		DBF286722837C367000E53D3 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF286752837C367000E53D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF286772837C367000E53D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */,
+				DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9D3AFB28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				DB9D3AF728382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
