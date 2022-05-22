@@ -109,10 +109,10 @@
 			children = (
 				DB9D3AFF28393BD500CC9543 /* XCTestCase+MemoryLeakTracking.swift */,
 				DB9D3B07283AC21B00CC9543 /* XCTestCase+FeedLoader.swift */,
+				DB9D3B11283ACFBA00CC9543 /* XCTestCase+FeedImageDataLoader.swift */,
 				DB9D3B0128393C5000CC9543 /* SharedTestHelpers.swift */,
 				DB9D3B05283AC16900CC9543 /* FeedLoaderStub.swift */,
 				DB9D3B0F283ACF4D00CC9543 /* FeedImageDataLoaderSpy.swift */,
-				DB9D3B11283ACFBA00CC9543 /* XCTestCase+FeedImageDataLoader.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
