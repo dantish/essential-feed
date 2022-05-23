@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB53AB91283AE0CC008E4E1D /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB90283AE0CC008E4E1D /* EssentialAppUIAcceptanceTests.swift */; };
 		DB53AB93283AED27008E4E1D /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB92283AED27008E4E1D /* DebuggingSceneDelegate.swift */; };
+		DB53AB95283B954B008E4E1D /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB94283B954A008E4E1D /* SceneDelegateTests.swift */; };
 		DB9D3AF728382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		DB9D3AF9283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AF8283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift */; };
 		DB9D3AFB28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
@@ -69,6 +70,7 @@
 /* Begin PBXFileReference section */
 		DB53AB90283AE0CC008E4E1D /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		DB53AB92283AED27008E4E1D /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
+		DB53AB94283B954A008E4E1D /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 		DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		DB9D3AF8283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				DB9D3AFE28393BBC00CC9543 /* Helpers */,
+				DB53AB94283B954A008E4E1D /* SceneDelegateTests.swift */,
 				DB9D3AF628382DD300CC9543 /* FeedLoaderWithFallbackCompositeTests.swift */,
 				DB9D3AFA28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				DB9D3B03283ABDE200CC9543 /* FeedLoaderCacheDecoratorTests.swift */,
@@ -364,6 +367,7 @@
 				DB9D3B0E283ACACB00CC9543 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				DB9D3B08283AC21B00CC9543 /* XCTestCase+FeedLoader.swift in Sources */,
 				DB9D3B12283ACFBA00CC9543 /* XCTestCase+FeedImageDataLoader.swift in Sources */,
+				DB53AB95283B954B008E4E1D /* SceneDelegateTests.swift in Sources */,
 				DB9D3B04283ABDE200CC9543 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				DB9D3B10283ACF4D00CC9543 /* FeedImageDataLoaderSpy.swift in Sources */,
 				DB9D3AFB28391A4700CC9543 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
