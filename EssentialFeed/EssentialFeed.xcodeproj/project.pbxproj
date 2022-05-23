@@ -75,6 +75,7 @@
 		DB847071276A534700E35820 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB847070276A534700E35820 /* FeedStoreSpy.swift */; };
 		DB9B2506283C1DA300DEA0B6 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9257C427971CCB007BADB6 /* EssentialFeediOS.framework */; };
 		DB9B250D283C1DC600DEA0B6 /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B250C283C1DC600DEA0B6 /* FeedSnapshotTests.swift */; };
+		DB9B2510283C22C100DEA0B6 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B250F283C22C100DEA0B6 /* UIImage+TestHelpers.swift */; };
 		DB9D3B0A283AC6C400CC9543 /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3B09283AC6C400CC9543 /* FeedCache.swift */; };
 		DB9D3B14283AD3CA00CC9543 /* FeedImageDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D3B13283AD3CA00CC9543 /* FeedImageDataCache.swift */; };
 		DB9ED6902797611200C3D639 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB23C11227398A5100EDA29E /* EssentialFeed.framework */; platformFilter = ios; };
@@ -211,6 +212,7 @@
 		DB9257C427971CCB007BADB6 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B2502283C1DA300DEA0B6 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B250C283C1DC600DEA0B6 /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
+		DB9B250F283C22C100DEA0B6 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		DB9D3B09283AC6C400CC9543 /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
 		DB9D3B13283AD3CA00CC9543 /* FeedImageDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataCache.swift; sourceTree = "<group>"; };
 		DBA532D7277B6E9B0039CED6 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -495,9 +497,18 @@
 		DB9B2503283C1DA300DEA0B6 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				DB9B250E283C22B400DEA0B6 /* Helpers */,
 				DB9B250C283C1DC600DEA0B6 /* FeedSnapshotTests.swift */,
 			);
 			path = EssentialFeediOSTests;
+			sourceTree = "<group>";
+		};
+		DB9B250E283C22B400DEA0B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B250F283C22C100DEA0B6 /* UIImage+TestHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DB9ED68F2797611200C3D639 /* Frameworks */ = {
@@ -916,6 +927,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9B250D283C1DC600DEA0B6 /* FeedSnapshotTests.swift in Sources */,
+				DB9B2510283C22C100DEA0B6 /* UIImage+TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
