@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB53AB93283AED27008E4E1D /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB92283AED27008E4E1D /* DebuggingSceneDelegate.swift */; };
 		DB53AB95283B954B008E4E1D /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB94283B954A008E4E1D /* SceneDelegateTests.swift */; };
 		DB53AB9B283B99E8008E4E1D /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB9A283B99E8008E4E1D /* WeakRefVirtualProxy.swift */; };
 		DB53AB9D283B9A78008E4E1D /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53AB9C283B9A78008E4E1D /* FeedViewAdapter.swift */; };
@@ -77,7 +76,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB53AB92283AED27008E4E1D /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		DB53AB94283B954A008E4E1D /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 		DB53AB9A283B99E8008E4E1D /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		DB53AB9C283B9A78008E4E1D /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 			children = (
 				DBF286752837C367000E53D3 /* AppDelegate.swift */,
 				DBF286772837C367000E53D3 /* SceneDelegate.swift */,
-				DB53AB92283AED27008E4E1D /* DebuggingSceneDelegate.swift */,
 				DB53ABA3283B9BF5008E4E1D /* FeedUIComposer.swift */,
 				DB53ABA2283B9BF5008E4E1D /* MainQueueDispatchDecorator.swift */,
 				DB53AB9A283B99E8008E4E1D /* WeakRefVirtualProxy.swift */,
@@ -345,7 +342,6 @@
 				DB9D3AF9283917AA00CC9543 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				DB9D3B16283AD44B00CC9543 /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 				DB9D3B0C283AC87A00CC9543 /* FeedLoaderCacheDecorator.swift in Sources */,
-				DB53AB93283AED27008E4E1D /* DebuggingSceneDelegate.swift in Sources */,
 				DBF286782837C367000E53D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
