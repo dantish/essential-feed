@@ -1,7 +1,7 @@
 # essential-feed
 
-![](https://github.com/dantish/essential-feed/workflows/CI-iOS/badge.svg)
+[![CI-iOS](https://github.com/dantish/essential-feed/actions/workflows/CI-iOS.yml/badge.svg)](https://github.com/dantish/essential-feed/actions/workflows/CI-iOS.yml)
 
-![](https://github.com/dantish/essential-feed/workflows/CI-macOS/badge.svg)
+[![CI-macOS](https://github.com/dantish/essential-feed/actions/workflows/CI-macOS.yml/badge.svg)](https://github.com/dantish/essential-feed/actions/workflows/CI-macOS.yml)
 
 A demo project where learnings from the iOS Lead Essentials course applied
