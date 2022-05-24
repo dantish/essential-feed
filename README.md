@@ -1,5 +1,7 @@
 # essential-feed
 
-[![Build Status](https://app.travis-ci.com/dantish/essential-feed.svg?branch=main)](https://app.travis-ci.com/dantish/essential-feed)
+![](https://github.com/dantish/essential-feed/workflows/CI-iOS/badge.svg)
+
+![](https://github.com/dantish/essential-feed/workflows/CI-macOS/badge.svg)
 
 A demo project where learnings from the iOS Lead Essentials course applied
