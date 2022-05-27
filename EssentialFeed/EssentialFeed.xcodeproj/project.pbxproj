@@ -344,7 +344,6 @@
 			isa = PBXGroup;
 			children = (
 				DB167E862742A9B700B92CF1 /* LoadFeedFromRemoteUseCaseTests.swift */,
-				DB4302A928400679007568CB /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
 				DB1125F827B428E20018CAB0 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */,
 			);
 			path = FeedAPI;
@@ -357,8 +356,6 @@
 				DB167E892742EC3E00B92CF1 /* RemoteFeedLoader.swift */,
 				DB1523F227472CAE00609A0E /* FeedItemsMapper.swift */,
 				DB668F1827693AEB00989F41 /* RemoteFeedItem.swift */,
-				DB4302AB28400786007568CB /* RemoteImageCommentsLoader.swift */,
-				DB4302AD28400832007568CB /* ImageCommentsMapper.swift */,
 				DB00B504282811D600E99406 /* RemoteFeedImageDataLoader.swift */,
 			);
 			path = FeedAPI;
@@ -410,6 +407,7 @@
 				DB4302B228413F7E007568CB /* SharedAPI */,
 				DB4302B328413F91007568CB /* SharedAPIInfra */,
 				DB4302AF28400CCF007568CB /* ImageCommentsFeature */,
+				DB4302B72841406E007568CB /* ImageCommentsAPI */,
 				DB23C1322739907F00EDA29E /* FeedFeature */,
 				DB167E882742EC2000B92CF1 /* FeedAPI */,
 				DBE2B5EC2762BE2600AACF4F /* FeedCache */,
@@ -424,6 +422,7 @@
 				DB34E5F4274C02BC000A6954 /* Helpers */,
 				DB4302B428413FA5007568CB /* SharedAPI */,
 				DB4302B528413FAB007568CB /* SharedAPIInfra */,
+				DB4302B82841409E007568CB /* ImageCommentsAPI */,
 				DB1523F42747334D00609A0E /* FeedAPI */,
 				DBE2B5E927621D7700AACF4F /* FeedCache */,
 				DB1125DC27B3B84B0018CAB0 /* FeedPresentation */,
@@ -499,6 +498,23 @@
 				DB00B5022828115500E99406 /* HTTPClientSpy.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DB4302B72841406E007568CB /* ImageCommentsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DB4302AB28400786007568CB /* RemoteImageCommentsLoader.swift */,
+				DB4302AD28400832007568CB /* ImageCommentsMapper.swift */,
+			);
+			path = ImageCommentsAPI;
+			sourceTree = "<group>";
+		};
+		DB4302B82841409E007568CB /* ImageCommentsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DB4302A928400679007568CB /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
+			);
+			path = ImageCommentsAPI;
 			sourceTree = "<group>";
 		};
 		DB638DAC27B1DF6F00C5CF7C /* Helpers */ = {
