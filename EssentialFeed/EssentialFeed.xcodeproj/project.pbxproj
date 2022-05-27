@@ -61,6 +61,8 @@
 		DB4302AC28400786007568CB /* RemoteImageCommentsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302AB28400786007568CB /* RemoteImageCommentsLoader.swift */; };
 		DB4302AE28400832007568CB /* ImageCommentsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302AD28400832007568CB /* ImageCommentsMapper.swift */; };
 		DB4302B128400CEB007568CB /* ImageComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302B028400CEB007568CB /* ImageComment.swift */; };
+		DB4302BA28415742007568CB /* RemoteLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302B928415742007568CB /* RemoteLoaderTests.swift */; };
+		DB4302BC284157E8007568CB /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302BB284157E8007568CB /* RemoteLoader.swift */; };
 		DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */; };
 		DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */; };
 		DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */; };
@@ -206,6 +208,8 @@
 		DB4302AB28400786007568CB /* RemoteImageCommentsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageCommentsLoader.swift; sourceTree = "<group>"; };
 		DB4302AD28400832007568CB /* ImageCommentsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsMapper.swift; sourceTree = "<group>"; };
 		DB4302B028400CEB007568CB /* ImageComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComment.swift; sourceTree = "<group>"; };
+		DB4302B928415742007568CB /* RemoteLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoaderTests.swift; sourceTree = "<group>"; };
+		DB4302BB284157E8007568CB /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
 		DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
@@ -460,6 +464,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1523F027472C3700609A0E /* HTTPClient.swift */,
+				DB4302BB284157E8007568CB /* RemoteLoader.swift */,
 			);
 			path = SharedAPI;
 			sourceTree = "<group>";
@@ -476,6 +481,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4302B628413FC9007568CB /* Helpers */,
+				DB4302B928415742007568CB /* RemoteLoaderTests.swift */,
 			);
 			path = SharedAPI;
 			sourceTree = "<group>";
@@ -936,6 +942,7 @@
 				DB1125E827B3C4A60018CAB0 /* FeedPresenter.swift in Sources */,
 				DB02784B274C552C00B37EF8 /* URLSessionHTTPClient.swift in Sources */,
 				DB00B5082828187B00E99406 /* HTTPURLResponse+StatusCode.swift in Sources */,
+				DB4302BC284157E8007568CB /* RemoteLoader.swift in Sources */,
 				DB6CBDE927834D0F002857B0 /* ManagedCache.swift in Sources */,
 				DB19997E2781235B001EF409 /* CoreDataFeedStore.swift in Sources */,
 				DB1125EF27B3C5A50018CAB0 /* FeedErrorViewModel.swift in Sources */,
@@ -974,6 +981,7 @@
 				DB199975277EA079001EF409 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				DB84706E276A511900E35820 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				DB199971277E9B29001EF409 /* FeedStoreSpecs.swift in Sources */,
+				DB4302BA28415742007568CB /* RemoteLoaderTests.swift in Sources */,
 				DB34E5F6274C02F7000A6954 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				DB19997C27812281001EF409 /* CoreDataFeedStoreTests.swift in Sources */,
 				DB1125F227B40EB20018CAB0 /* FeedImagePresenterTests.swift in Sources */,
