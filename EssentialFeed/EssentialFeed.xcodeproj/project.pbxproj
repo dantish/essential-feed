@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DB00B5032828115500E99406 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5022828115500E99406 /* HTTPClientSpy.swift */; };
-		DB00B505282811D600E99406 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B504282811D600E99406 /* RemoteFeedImageDataLoader.swift */; };
 		DB00B5082828187B00E99406 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5072828187B00E99406 /* HTTPURLResponse+StatusCode.swift */; };
 		DB00B50A2828196200E99406 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5092828196200E99406 /* URLProtocolStub.swift */; };
 		DB00B50C28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B50B28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift */; };
@@ -149,7 +148,6 @@
 
 /* Begin PBXFileReference section */
 		DB00B5022828115500E99406 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
-		DB00B504282811D600E99406 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		DB00B5072828187B00E99406 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		DB00B5092828196200E99406 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 		DB00B50B28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -349,7 +347,6 @@
 				DB00B5062828186300E99406 /* Helpers */,
 				DB1523F227472CAE00609A0E /* FeedItemsMapper.swift */,
 				DB4302BD2843B4A6007568CB /* FeedImageDataMapper.swift */,
-				DB00B504282811D600E99406 /* RemoteFeedImageDataLoader.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -912,7 +909,6 @@
 				DB1125F627B41C360018CAB0 /* FeedImageViewModel.swift in Sources */,
 				DB4302BE2843B4A6007568CB /* FeedImageDataMapper.swift in Sources */,
 				DBA532DE277B82AD0039CED6 /* FeedCachePolicy.swift in Sources */,
-				DB00B505282811D600E99406 /* RemoteFeedImageDataLoader.swift in Sources */,
 				DB4302B128400CEB007568CB /* ImageComment.swift in Sources */,
 				DB19998127812534001EF409 /* FeedStore.xcdatamodeld in Sources */,
 				DB01813728355C25008FF422 /* CoreDataFeedStore+FeedStore.swift in Sources */,
