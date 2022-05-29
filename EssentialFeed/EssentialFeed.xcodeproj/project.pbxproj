@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB00B5032828115500E99406 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5022828115500E99406 /* HTTPClientSpy.swift */; };
 		DB00B5082828187B00E99406 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5072828187B00E99406 /* HTTPURLResponse+StatusCode.swift */; };
 		DB00B50A2828196200E99406 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B5092828196200E99406 /* URLProtocolStub.swift */; };
 		DB00B50C28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00B50B28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift */; };
@@ -147,7 +146,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB00B5022828115500E99406 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		DB00B5072828187B00E99406 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		DB00B5092828196200E99406 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 		DB00B50B28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -410,7 +408,6 @@
 			isa = PBXGroup;
 			children = (
 				DB34E5F4274C02BC000A6954 /* Helpers */,
-				DB4302B428413FA5007568CB /* SharedAPI */,
 				DB4302B528413FAB007568CB /* SharedAPIInfra */,
 				DB4302B82841409E007568CB /* ImageCommentsAPI */,
 				DB1523F42747334D00609A0E /* FeedAPI */,
@@ -464,14 +461,6 @@
 			path = SharedAPIInfra;
 			sourceTree = "<group>";
 		};
-		DB4302B428413FA5007568CB /* SharedAPI */ = {
-			isa = PBXGroup;
-			children = (
-				DB4302B628413FC9007568CB /* Helpers */,
-			);
-			path = SharedAPI;
-			sourceTree = "<group>";
-		};
 		DB4302B528413FAB007568CB /* SharedAPIInfra */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,14 +468,6 @@
 				DB767A222748637400AA6A2B /* URLSessionHTTPClientTests.swift */,
 			);
 			path = SharedAPIInfra;
-			sourceTree = "<group>";
-		};
-		DB4302B628413FC9007568CB /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				DB00B5022828115500E99406 /* HTTPClientSpy.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DB4302B72841406E007568CB /* ImageCommentsAPI */ = {
@@ -952,7 +933,6 @@
 				DB767A232748637400AA6A2B /* URLSessionHTTPClientTests.swift in Sources */,
 				DB847071276A534700E35820 /* FeedStoreSpy.swift in Sources */,
 				DB00B50C28285D8E00E99406 /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */,
-				DB00B5032828115500E99406 /* HTTPClientSpy.swift in Sources */,
 				DB4302AA28400679007568CB /* ImageCommentsMapperTests.swift in Sources */,
 				DBA532DC277B72B40039CED6 /* SharedTestHelpers.swift in Sources */,
 				DBE2B5EB27621D9E00AACF4F /* CacheFeedUseCaseTests.swift in Sources */,
