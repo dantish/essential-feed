@@ -176,7 +176,7 @@ class EssentialFeedCacheIntegrationTests: XCTestCase {
 
     private func expect(_ sut: LocalFeedImageDataLoader, toLoad expectedData: Data, for url: URL, file: StaticString = #filePath, line: UInt = #line) {
         let exp = expectation(description: "Wait for load completion")
-        sut.loadImageData(from: url) { result in
+        _ = sut.loadImageData(from: url) { result in
             switch result {
             case let .success(loadedData):
                 XCTAssertEqual(loadedData, expectedData, file: file, line: line)
