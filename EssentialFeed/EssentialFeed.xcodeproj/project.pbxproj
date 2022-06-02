@@ -83,6 +83,7 @@
 		DB43030C2849463C007568CB /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = DB43030A2849463C007568CB /* IMAGE_COMMENTS_dark.png */; };
 		DB43030D2849463C007568CB /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = DB43030B2849463C007568CB /* IMAGE_COMMENTS_light.png */; };
 		DB43030F284947BE007568CB /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43030E284947BE007568CB /* ImageCommentCell.swift */; };
+		DB4303112849604D007568CB /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4303102849604D007568CB /* CellController.swift */; };
 		DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */; };
 		DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */; };
 		DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */; };
@@ -254,6 +255,7 @@
 		DB43030A2849463C007568CB /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		DB43030B2849463C007568CB /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
 		DB43030E284947BE007568CB /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
+		DB4303102849604D007568CB /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 		DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
@@ -598,6 +600,7 @@
 			isa = PBXGroup;
 			children = (
 				DBFB29F027A171B60026BEE3 /* ListViewController.swift */,
+				DB4303102849604D007568CB /* CellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1207,6 +1210,7 @@
 				DB9B2512283C246200DEA0B6 /* UITableView+HeaderSizing.swift in Sources */,
 				DB36ABEF27A83AD20057DD83 /* UIView+Shimmering.swift in Sources */,
 				DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */,
+				DB4303112849604D007568CB /* CellController.swift in Sources */,
 				DB0771C427AADA43000FCB41 /* UITableView+Dequeueing.swift in Sources */,
 				DBFB29F127A171B60026BEE3 /* ListViewController.swift in Sources */,
 				DB0771C627AADB5C000FCB41 /* UIImageView+Animations.swift in Sources */,
