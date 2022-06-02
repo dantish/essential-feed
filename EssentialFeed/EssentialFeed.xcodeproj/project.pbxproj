@@ -555,14 +555,47 @@
 			path = ImageCommentsPresentation;
 			sourceTree = "<group>";
 		};
+		DB4302E328493659007568CB /* SharedUI */ = {
+			isa = PBXGroup;
+			children = (
+				DB4302E428493660007568CB /* Controllers */,
+				DB4302E728493694007568CB /* Views */,
+			);
+			path = SharedUI;
+			sourceTree = "<group>";
+		};
+		DB4302E428493660007568CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBFB29F027A171B60026BEE3 /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB4302E728493694007568CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB4302E8284936AD007568CB /* Helpers */,
+				DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB4302E8284936AD007568CB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */,
+				DB9B2511283C246200DEA0B6 /* UITableView+HeaderSizing.swift */,
+				DB0771C327AADA43000FCB41 /* UITableView+Dequeueing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DB638DAC27B1DF6F00C5CF7C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				DB36ABEE27A83AD20057DD83 /* UIView+Shimmering.swift */,
-				DB0771C327AADA43000FCB41 /* UITableView+Dequeueing.swift */,
 				DB0771C527AADB5C000FCB41 /* UIImageView+Animations.swift */,
-				DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */,
-				DB9B2511283C246200DEA0B6 /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -610,6 +643,7 @@
 		DB9257C527971CCB007BADB6 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
+				DB4302E328493659007568CB /* SharedUI */,
 				DBDEFBDB27A95DA2002E71DB /* Feed UI */,
 			);
 			path = EssentialFeediOS;
@@ -644,7 +678,6 @@
 		DBDEFBCD27A95944002E71DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DBFB29F027A171B60026BEE3 /* ListViewController.swift */,
 				DBDEFBE227A9670C002E71DB /* FeedImageCellController.swift */,
 			);
 			path = Controllers;
@@ -655,7 +688,6 @@
 			children = (
 				DB638DAC27B1DF6F00C5CF7C /* Helpers */,
 				DB83ACB527A4845B00F4BFE3 /* FeedImageCell.swift */,
-				DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */,
 				DB0771BF27AACDC6000FCB41 /* Feed.storyboard */,
 				DB0771C127AACE55000FCB41 /* Feed.xcassets */,
 			);
