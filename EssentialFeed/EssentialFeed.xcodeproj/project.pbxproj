@@ -66,7 +66,8 @@
 		DB4302D32847F512007568CB /* ResourceErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302D22847F512007568CB /* ResourceErrorView.swift */; };
 		DB4302D62848F0C4007568CB /* ImageCommentsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302D52848F0C4007568CB /* ImageCommentsPresenterTests.swift */; };
 		DB4302D92848F13D007568CB /* ImageCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302D82848F13D007568CB /* ImageCommentsPresenter.swift */; };
-		DB4302DB2848F17B007568CB /* ImageComments.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4302DA2848F17B007568CB /* ImageComments.strings */; };
+		DB4302DD2848F226007568CB /* ImageCommentsLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302DC2848F226007568CB /* ImageCommentsLocalizationTests.swift */; };
+		DB4302DE2848F24B007568CB /* ImageComments.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4302E02848F24B007568CB /* ImageComments.strings */; };
 		DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */; };
 		DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */; };
 		DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */; };
@@ -219,7 +220,10 @@
 		DB4302D22847F512007568CB /* ResourceErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceErrorView.swift; sourceTree = "<group>"; };
 		DB4302D52848F0C4007568CB /* ImageCommentsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenterTests.swift; sourceTree = "<group>"; };
 		DB4302D82848F13D007568CB /* ImageCommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenter.swift; sourceTree = "<group>"; };
-		DB4302DA2848F17B007568CB /* ImageComments.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ImageComments.strings; sourceTree = "<group>"; };
+		DB4302DC2848F226007568CB /* ImageCommentsLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsLocalizationTests.swift; sourceTree = "<group>"; };
+		DB4302DF2848F24B007568CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		DB4302E12848F24D007568CB /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		DB4302E22848F24E007568CB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ImageComments.strings"; sourceTree = "<group>"; };
 		DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
@@ -537,6 +541,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4302D52848F0C4007568CB /* ImageCommentsPresenterTests.swift */,
+				DB4302DC2848F226007568CB /* ImageCommentsLocalizationTests.swift */,
 			);
 			path = ImageCommentsPresentation;
 			sourceTree = "<group>";
@@ -545,7 +550,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4302D82848F13D007568CB /* ImageCommentsPresenter.swift */,
-				DB4302DA2848F17B007568CB /* ImageComments.strings */,
+				DB4302E02848F24B007568CB /* ImageComments.strings */,
 			);
 			path = ImageCommentsPresentation;
 			sourceTree = "<group>";
@@ -900,7 +905,7 @@
 			files = (
 				DB1125E927B3C5210018CAB0 /* Feed.strings in Resources */,
 				DB4302C92847EE7D007568CB /* Shared.strings in Resources */,
-				DB4302DB2848F17B007568CB /* ImageComments.strings in Resources */,
+				DB4302DE2848F24B007568CB /* ImageComments.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,6 +1016,7 @@
 				DB199979277EA196001EF409 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */,
 				DB4302C82847EDB2007568CB /* SharedLocalizationTests.swift in Sources */,
 				DB41CE42282FE2180064C5C5 /* FeedImageDataStoreSpy.swift in Sources */,
+				DB4302DD2848F226007568CB /* ImageCommentsLocalizationTests.swift in Sources */,
 				DB41CE46282FFD0E0064C5C5 /* CoreDataFeedImageDataStoreTests.swift in Sources */,
 				DB199975277EA079001EF409 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				DB84706E276A511900E35820 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
@@ -1111,6 +1117,16 @@
 				DB4302CD2847EE7F007568CB /* pt-BR */,
 			);
 			name = Shared.strings;
+			sourceTree = "<group>";
+		};
+		DB4302E02848F24B007568CB /* ImageComments.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4302DF2848F24B007568CB /* en */,
+				DB4302E12848F24D007568CB /* el */,
+				DB4302E22848F24E007568CB /* pt-BR */,
+			);
+			name = ImageComments.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
