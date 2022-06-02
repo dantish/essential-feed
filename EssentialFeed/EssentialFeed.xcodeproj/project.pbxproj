@@ -77,6 +77,12 @@
 		DB4302FA28493818007568CB /* LIST_WITH_ERROR_MESSAGE_light.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4302F228493818007568CB /* LIST_WITH_ERROR_MESSAGE_light.png */; };
 		DB4302FB28493818007568CB /* EMPTY_LIST_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4302F328493818007568CB /* EMPTY_LIST_dark.png */; };
 		DB4302FD284938CC007568CB /* ListSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4302FC284938CC007568CB /* ListSnapshotTests.swift */; };
+		DB43030128494320007568CB /* ImageCommentsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43030028494320007568CB /* ImageCommentsSnapshotTests.swift */; };
+		DB43030528494485007568CB /* ImageCommentCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43030428494485007568CB /* ImageCommentCellController.swift */; };
+		DB4303082849453B007568CB /* ImageComments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4303072849453B007568CB /* ImageComments.storyboard */; };
+		DB43030C2849463C007568CB /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = DB43030A2849463C007568CB /* IMAGE_COMMENTS_dark.png */; };
+		DB43030D2849463C007568CB /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = DB43030B2849463C007568CB /* IMAGE_COMMENTS_light.png */; };
+		DB43030F284947BE007568CB /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43030E284947BE007568CB /* ImageCommentCell.swift */; };
 		DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */; };
 		DB638DB027B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */; };
 		DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */; };
@@ -242,6 +248,12 @@
 		DB4302F228493818007568CB /* LIST_WITH_ERROR_MESSAGE_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light.png; sourceTree = "<group>"; };
 		DB4302F328493818007568CB /* EMPTY_LIST_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EMPTY_LIST_dark.png; sourceTree = "<group>"; };
 		DB4302FC284938CC007568CB /* ListSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSnapshotTests.swift; sourceTree = "<group>"; };
+		DB43030028494320007568CB /* ImageCommentsSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsSnapshotTests.swift; sourceTree = "<group>"; };
+		DB43030428494485007568CB /* ImageCommentCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCellController.swift; sourceTree = "<group>"; };
+		DB4303072849453B007568CB /* ImageComments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageComments.storyboard; sourceTree = "<group>"; };
+		DB43030A2849463C007568CB /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
+		DB43030B2849463C007568CB /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
+		DB43030E284947BE007568CB /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
 		DB638DAA27B1D79C00C5CF7C /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DB638DAF27B1DFE300C5CF7C /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		DB668F1A27693BBF00989F41 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
@@ -649,6 +661,50 @@
 			path = snapshots;
 			sourceTree = "<group>";
 		};
+		DB4302FF2849430A007568CB /* ImageCommentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				DB4303092849463C007568CB /* snapshots */,
+				DB43030028494320007568CB /* ImageCommentsSnapshotTests.swift */,
+			);
+			path = ImageCommentsUI;
+			sourceTree = "<group>";
+		};
+		DB4303022849446A007568CB /* ImageCommentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				DB43030328494476007568CB /* Controllers */,
+				DB4303062849452E007568CB /* Views */,
+			);
+			path = ImageCommentsUI;
+			sourceTree = "<group>";
+		};
+		DB43030328494476007568CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB43030428494485007568CB /* ImageCommentCellController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB4303062849452E007568CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB43030E284947BE007568CB /* ImageCommentCell.swift */,
+				DB4303072849453B007568CB /* ImageComments.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB4303092849463C007568CB /* snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				DB43030A2849463C007568CB /* IMAGE_COMMENTS_dark.png */,
+				DB43030B2849463C007568CB /* IMAGE_COMMENTS_light.png */,
+			);
+			path = snapshots;
+			sourceTree = "<group>";
+		};
 		DB638DAC27B1DF6F00C5CF7C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -702,6 +758,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4302E328493659007568CB /* SharedUI */,
+				DB4303022849446A007568CB /* ImageCommentsUI */,
 				DBDEFBDB27A95DA2002E71DB /* Feed UI */,
 			);
 			path = EssentialFeediOS;
@@ -712,6 +769,7 @@
 			children = (
 				DB9B250E283C22B400DEA0B6 /* Helpers */,
 				DB4302E928493736007568CB /* SharedUI */,
+				DB4302FF2849430A007568CB /* ImageCommentsUI */,
 				DB4302EA2849378E007568CB /* FeedUI */,
 			);
 			path = EssentialFeediOSTests;
@@ -1019,6 +1077,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0771C027AACDC6000FCB41 /* Feed.storyboard in Resources */,
+				DB4303082849453B007568CB /* ImageComments.storyboard in Resources */,
 				DB0771C227AACE55000FCB41 /* Feed.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1031,10 +1090,12 @@
 				DB4302FB28493818007568CB /* EMPTY_LIST_dark.png in Resources */,
 				DB4302F728493818007568CB /* EMPTY_LIST_light.png in Resources */,
 				DB4302F428493818007568CB /* LIST_WITH_ERROR_MESSAGE_dark.png in Resources */,
+				DB43030D2849463C007568CB /* IMAGE_COMMENTS_light.png in Resources */,
 				DB4302F628493818007568CB /* FEED_WITH_CONTENT_dark.png in Resources */,
 				DB4302F828493818007568CB /* FEED_WITH_CONTENT_light.png in Resources */,
 				DB4302FA28493818007568CB /* LIST_WITH_ERROR_MESSAGE_light.png in Resources */,
 				DB4302F528493818007568CB /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png in Resources */,
+				DB43030C2849463C007568CB /* IMAGE_COMMENTS_dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,7 +1212,9 @@
 				DB0771C627AADB5C000FCB41 /* UIImageView+Animations.swift in Sources */,
 				DB638DAB27B1D79C00C5CF7C /* ErrorView.swift in Sources */,
 				DB83ACB627A4845B00F4BFE3 /* FeedImageCell.swift in Sources */,
+				DB43030528494485007568CB /* ImageCommentCellController.swift in Sources */,
 				DBDEFBE327A9670C002E71DB /* FeedImageCellController.swift in Sources */,
+				DB43030F284947BE007568CB /* ImageCommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1226,7 @@
 				DB9B2514283C369300DEA0B6 /* UIViewController+Snapshot.swift in Sources */,
 				DB4302FD284938CC007568CB /* ListSnapshotTests.swift in Sources */,
 				DB9B2516283C36E800DEA0B6 /* XCTestCase+Snapshot.swift in Sources */,
+				DB43030128494320007568CB /* ImageCommentsSnapshotTests.swift in Sources */,
 				DB9B2510283C22C100DEA0B6 /* UIImage+TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
