@@ -22,7 +22,6 @@
 		DB1125DE27B3B8950018CAB0 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1125DD27B3B8950018CAB0 /* FeedPresenterTests.swift */; };
 		DB1125E827B3C4A60018CAB0 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1125E727B3C4A60018CAB0 /* FeedPresenter.swift */; };
 		DB1125E927B3C5210018CAB0 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1125E327B3C3670018CAB0 /* Feed.strings */; };
-		DB1125EB27B3C5530018CAB0 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1125EA27B3C5530018CAB0 /* FeedViewModel.swift */; };
 		DB1125ED27B3C58A0018CAB0 /* ResourceLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1125EC27B3C58A0018CAB0 /* ResourceLoadingViewModel.swift */; };
 		DB1125EF27B3C5A50018CAB0 /* ResourceErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1125EE27B3C5A50018CAB0 /* ResourceErrorViewModel.swift */; };
 		DB1125F027B3C7190018CAB0 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BBB1427AC09D500B15E04 /* FeedLocalizationTests.swift */; };
@@ -205,7 +204,6 @@
 		DB1125E427B3C3680018CAB0 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		DB1125E527B3C36A0018CAB0 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		DB1125E727B3C4A60018CAB0 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
-		DB1125EA27B3C5530018CAB0 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		DB1125EC27B3C58A0018CAB0 /* ResourceLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLoadingViewModel.swift; sourceTree = "<group>"; };
 		DB1125EE27B3C5A50018CAB0 /* ResourceErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceErrorViewModel.swift; sourceTree = "<group>"; };
 		DB1125F127B40EB20018CAB0 /* FeedImagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenterTests.swift; sourceTree = "<group>"; };
@@ -410,7 +408,6 @@
 			isa = PBXGroup;
 			children = (
 				DB1125E727B3C4A60018CAB0 /* FeedPresenter.swift */,
-				DB1125EA27B3C5530018CAB0 /* FeedViewModel.swift */,
 				DB1125F327B41B6E0018CAB0 /* FeedImagePresenter.swift */,
 				DB1125F527B41C360018CAB0 /* FeedImageViewModel.swift */,
 				DB1125E327B3C3670018CAB0 /* Feed.strings */,
@@ -1187,7 +1184,6 @@
 				DB01813728355C25008FF422 /* CoreDataFeedStore+FeedStore.swift in Sources */,
 				DB4302D92848F13D007568CB /* ImageCommentsPresenter.swift in Sources */,
 				DB668F1B27693BBF00989F41 /* LocalFeedImage.swift in Sources */,
-				DB1125EB27B3C5530018CAB0 /* FeedViewModel.swift in Sources */,
 				DBE2B5F02762BEDD00AACF4F /* FeedStore.swift in Sources */,
 				DBE2B5EE2762BE3C00AACF4F /* LocalFeedLoader.swift in Sources */,
 				DB4302AE28400832007568CB /* ImageCommentsMapper.swift in Sources */,
