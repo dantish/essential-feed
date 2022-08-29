@@ -1,5 +1,5 @@
 //
-//  CoreDataFeedStore+FeedImageDataLoader.swift
+//  CoreDataFeedStore+FeedImageDataStore.swift
 //  EssentialFeed
 //
 //  Created by Daniel Tischenko on 14.05.2022.
@@ -22,7 +22,7 @@ extension CoreDataFeedStore: FeedImageDataStore {
     public func retrieve(dataForURL url: URL, completion: @escaping (FeedImageDataStore.RetrievalResult) -> Void) {
         perform { context in
             completion(Result {
-                try ManagedFeedImage.first(with: url, in: context)?.data
+                try ManagedFeedImage.data(with: url, in: context)
             })
         }
     }
